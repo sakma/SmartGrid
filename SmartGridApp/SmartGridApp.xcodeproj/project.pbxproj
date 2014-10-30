@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C38248A1A0258F700543279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3824891A0258F700543279 /* main.m */; };
+		4C38248D1A0258F700543279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C38248C1A0258F700543279 /* AppDelegate.m */; };
+		4C3824901A0258F700543279 /* SmartGridApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C38248E1A0258F700543279 /* SmartGridApp.xcdatamodeld */; };
+		4C3824931A0258F700543279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3824921A0258F700543279 /* ViewController.m */; };
+		4C3824961A0258F700543279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C3824941A0258F700543279 /* Main.storyboard */; };
+		4C3824981A0258F700543279 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3824971A0258F700543279 /* Images.xcassets */; };
+		4C38249B1A0258F700543279 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3824991A0258F700543279 /* LaunchScreen.xib */; };
+		4C3824A71A0258F700543279 /* SmartGridAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3824A61A0258F700543279 /* SmartGridAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C3824A11A0258F700543279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C38247C1A0258F700543279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3824831A0258F700543279;
+			remoteInfo = SmartGridApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C3824841A0258F700543279 /* SmartGridApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartGridApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3824881A0258F700543279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3824891A0258F700543279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C38248B1A0258F700543279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C38248C1A0258F700543279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C38248F1A0258F700543279 /* SmartGridApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartGridApp.xcdatamodel; sourceTree = "<group>"; };
+		4C3824911A0258F700543279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4C3824921A0258F700543279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4C3824951A0258F700543279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C3824971A0258F700543279 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4C38249A1A0258F700543279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4C3824A01A0258F700543279 /* SmartGridAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartGridAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C3824A51A0258F700543279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C3824A61A0258F700543279 /* SmartGridAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartGridAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3824811A0258F700543279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38249D1A0258F700543279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C38247B1A0258F700543279 = {
+			isa = PBXGroup;
+			children = (
+				4C3824861A0258F700543279 /* SmartGridApp */,
+				4C3824A31A0258F700543279 /* SmartGridAppTests */,
+				4C3824851A0258F700543279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C3824851A0258F700543279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C3824841A0258F700543279 /* SmartGridApp.app */,
+				4C3824A01A0258F700543279 /* SmartGridAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C3824861A0258F700543279 /* SmartGridApp */ = {
+			isa = PBXGroup;
+			children = (
+				4C38248B1A0258F700543279 /* AppDelegate.h */,
+				4C38248C1A0258F700543279 /* AppDelegate.m */,
+				4C3824911A0258F700543279 /* ViewController.h */,
+				4C3824921A0258F700543279 /* ViewController.m */,
+				4C3824941A0258F700543279 /* Main.storyboard */,
+				4C3824971A0258F700543279 /* Images.xcassets */,
+				4C3824991A0258F700543279 /* LaunchScreen.xib */,
+				4C38248E1A0258F700543279 /* SmartGridApp.xcdatamodeld */,
+				4C3824871A0258F700543279 /* Supporting Files */,
+			);
+			path = SmartGridApp;
+			sourceTree = "<group>";
+		};
+		4C3824871A0258F700543279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3824881A0258F700543279 /* Info.plist */,
+				4C3824891A0258F700543279 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C3824A31A0258F700543279 /* SmartGridAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C3824A61A0258F700543279 /* SmartGridAppTests.m */,
+				4C3824A41A0258F700543279 /* Supporting Files */,
+			);
+			path = SmartGridAppTests;
+			sourceTree = "<group>";
+		};
+		4C3824A41A0258F700543279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C3824A51A0258F700543279 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C3824831A0258F700543279 /* SmartGridApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3824AA1A0258F700543279 /* Build configuration list for PBXNativeTarget "SmartGridApp" */;
+			buildPhases = (
+				4C3824801A0258F700543279 /* Sources */,
+				4C3824811A0258F700543279 /* Frameworks */,
+				4C3824821A0258F700543279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartGridApp;
+			productName = SmartGridApp;
+			productReference = 4C3824841A0258F700543279 /* SmartGridApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C38249F1A0258F700543279 /* SmartGridAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3824AD1A0258F700543279 /* Build configuration list for PBXNativeTarget "SmartGridAppTests" */;
+			buildPhases = (
+				4C38249C1A0258F700543279 /* Sources */,
+				4C38249D1A0258F700543279 /* Frameworks */,
+				4C38249E1A0258F700543279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C3824A21A0258F700543279 /* PBXTargetDependency */,
+			);
+			name = SmartGridAppTests;
+			productName = SmartGridAppTests;
+			productReference = 4C3824A01A0258F700543279 /* SmartGridAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C38247C1A0258F700543279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Maria;
+				TargetAttributes = {
+					4C3824831A0258F700543279 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					4C38249F1A0258F700543279 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 4C3824831A0258F700543279;
+					};
+				};
+			};
+			buildConfigurationList = 4C38247F1A0258F700543279 /* Build configuration list for PBXProject "SmartGridApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C38247B1A0258F700543279;
+			productRefGroup = 4C3824851A0258F700543279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3824831A0258F700543279 /* SmartGridApp */,
+				4C38249F1A0258F700543279 /* SmartGridAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C3824821A0258F700543279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3824961A0258F700543279 /* Main.storyboard in Resources */,
+				4C38249B1A0258F700543279 /* LaunchScreen.xib in Resources */,
+				4C3824981A0258F700543279 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38249E1A0258F700543279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C3824801A0258F700543279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3824901A0258F700543279 /* SmartGridApp.xcdatamodeld in Sources */,
+				4C38248D1A0258F700543279 /* AppDelegate.m in Sources */,
+				4C3824931A0258F700543279 /* ViewController.m in Sources */,
+				4C38248A1A0258F700543279 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C38249C1A0258F700543279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3824A71A0258F700543279 /* SmartGridAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C3824A21A0258F700543279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C3824831A0258F700543279 /* SmartGridApp */;
+			targetProxy = 4C3824A11A0258F700543279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C3824941A0258F700543279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C3824951A0258F700543279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C3824991A0258F700543279 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C38249A1A0258F700543279 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C3824A81A0258F700543279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C3824A91A0258F700543279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C3824AB1A0258F700543279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartGridApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C3824AC1A0258F700543279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SmartGridApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4C3824AE1A0258F700543279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartGridAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGridApp.app/SmartGridApp";
+			};
+			name = Debug;
+		};
+		4C3824AF1A0258F700543279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartGridAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartGridApp.app/SmartGridApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C38247F1A0258F700543279 /* Build configuration list for PBXProject "SmartGridApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3824A81A0258F700543279 /* Debug */,
+				4C3824A91A0258F700543279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C3824AA1A0258F700543279 /* Build configuration list for PBXNativeTarget "SmartGridApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3824AB1A0258F700543279 /* Debug */,
+				4C3824AC1A0258F700543279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C3824AD1A0258F700543279 /* Build configuration list for PBXNativeTarget "SmartGridAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C3824AE1A0258F700543279 /* Debug */,
+				4C3824AF1A0258F700543279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C38248E1A0258F700543279 /* SmartGridApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C38248F1A0258F700543279 /* SmartGridApp.xcdatamodel */,
+			);
+			currentVersion = 4C38248F1A0258F700543279 /* SmartGridApp.xcdatamodel */;
+			path = SmartGridApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C38247C1A0258F700543279 /* Project object */;
+}
